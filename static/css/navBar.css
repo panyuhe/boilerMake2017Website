@@ -1,0 +1,26 @@
+.navBar{
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  border-radius: pink;
+}
+
+.header{
+  position:relative;
+  width: 40%;
+  height: 100%;
+  text-align: left;
+}
+
+.option{
+  position: relative;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+}
