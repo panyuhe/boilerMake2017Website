@@ -3,18 +3,20 @@
   top: 0;
   height: 50px;
   width: 100%;
-  border-radius: pink;
 }
 
 .header{
-  position:relative;
-  width: 40%;
+  position: relative;
+  display: inline-block;
+  width: 30%;
   height: 100%;
   text-align: left;
 }
 
 .option{
   position: relative;
+  display: inline-block;
+  padding-top: 10px;
   width: 20%;
   height: 100%;
   text-align: center;
@@ -22,5 +24,6 @@
 
 a{
   text-decoration: none;
+  font-size: 25px;
   color: gray;
 }
