@@ -11,7 +11,6 @@
 }
 
 .lang_boxes{
-  position: relative;
   height: 80%;
 }
 .topic{
@@ -34,6 +33,7 @@
 
 .unity{
   border-color: #5ED6D4;
+  top: -40px;
 }
 
 .security{
@@ -41,7 +41,7 @@
 }
 
 .project{
-  top: -50px;
+  top: -110px;
 }
 
 article h1{
@@ -65,4 +65,5 @@ article p{
   position: relative;
   height: 50px;
   width: 50px;
+  top: -30%;
 }
