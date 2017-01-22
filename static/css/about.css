@@ -2,6 +2,7 @@
   height: 100%;
   width: 100%;
   text-align: center;
+  background-color: #f4f4f4;
 }
 
 #about .title{
@@ -11,7 +12,7 @@
 
 .topic{
   position: relative;
-  background-color: #f4f4f4;
+  background-color: white;
   display: inline-block;
   width: 20%;
   top: 0;
@@ -21,6 +22,10 @@
   text-align: center;
   padding: 10px;
   font-family: 'Lato', sans-serif;
+}
+
+.topic:hover{
+  background-color: #f4f4f4;
 }
 
 .unity{
