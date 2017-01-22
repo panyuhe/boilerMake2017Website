@@ -1,4 +1,56 @@
 #about{
   height: 100%;
   width: 100%;
+  text-align: center;
+}
+
+#about .title{
+  height: 40px;
+  padding: 20px;
+}
+
+.topic{
+  position: relative;
+  background-color: #f4f4f4;
+  display: inline-block;
+  width: 20%;
+  top: 0;
+  height: 80%;
+  border: 1px solid;
+  border-top: 15px solid;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.unity{
+  border-color: #5ED6D4;
+}
+
+.security{
+  border-color: #e74b3c;
+}
+
+article h1{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+article p{
+  font-size: 25px;
+}
+
+.icon{
+  max-height: 40%;
+  max-width: 50%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.operators{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  top: 30%;
 }

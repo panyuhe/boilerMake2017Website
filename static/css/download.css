@@ -1,4 +1,21 @@
 #download{
-  height: 100%;
+  height: 50%;
   width: 100%;
+  text-align: center;
+  background-image: url("../../assets/download_background.png");
+}
+
+#download .title{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  color: gray;
+  width: 30%;
+  border-bottom: 1px solid gray;
+}
+
+#download a{
+    text-decoration: none;
+    font-size: 25px;
+    color: gray;
 }

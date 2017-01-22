@@ -1,19 +1,21 @@
 .container{
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .navBar{
   position: fixed;
   top: 0;
-  height: 50px;
+  height: 70px;
+  width: 100%;
   text-align: center;
-  background-color: rgb(169,169,169);
+  background-color: #e74b3c;
 }
 
 .main{
 position: absolute;
-top: 50px;
+top: 70px;
 bottom: 0px;
 width: 100%;
 overflow-y: scroll;
