@@ -17,5 +17,27 @@
 #download a{
     text-decoration: none;
     font-size: 25px;
-    color: gray;
+}
+
+.dl_link{
+  position: relative;
+  display: block;
+  height: 30px;
+  white-space: nowrap;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dl_link:hover{
+  background-color: #e74b3c;
+}
+
+.downloads{
+  margin: 20px;
+  padding: 20px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid gray;
 }

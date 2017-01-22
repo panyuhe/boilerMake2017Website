@@ -7,9 +7,13 @@
 
 #about .title{
   height: 40px;
-  padding: 20px;
+  padding: 40px;
 }
 
+.lang_boxes{
+  position: relative;
+  height: 80%;
+}
 .topic{
   position: relative;
   background-color: white;
@@ -18,7 +22,7 @@
   top: 0;
   height: 80%;
   border: 1px solid;
-  border-top: 15px solid;
+  border-top: 10px solid;
   text-align: center;
   padding: 10px;
   font-family: 'Lato', sans-serif;
@@ -34,6 +38,10 @@
 
 .security{
   border-color: #e74b3c;
+}
+
+.project{
+  top: -50px;
 }
 
 article h1{
@@ -57,5 +65,4 @@ article p{
   position: relative;
   height: 50px;
   width: 50px;
-  top: 30%;
 }

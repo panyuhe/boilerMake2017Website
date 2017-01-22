@@ -16,5 +16,15 @@
   color: white;
   top: 40%;
   height: 51%;
+  text-align: center;
   background-color: #e74b3c;
+}
+
+.greeting{
+  position: relative;
+  display: block;
+  margin-left: 45px;
+  margin-right: 45px;
+  top: 10%;
+  font-size: 20px;
 }
